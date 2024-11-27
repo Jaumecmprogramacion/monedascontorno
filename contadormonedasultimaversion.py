@@ -36,7 +36,7 @@ class ContadorMonedas:
         self.etiqueta_archivo = tk.Label(self.master, text="No se ha seleccionado ningún archivo", font=("Helvetica", 10), bg="#f0f0f0", fg="#666666", wraplength=450)
         self.etiqueta_archivo.pack(pady=10)
 
-        # Frame para los parámetros
+        # Frame para los parámetro
         frame_parametros = tk.Frame(self.master, bg="#f0f0f0")
         frame_parametros.pack(pady=10)
 
