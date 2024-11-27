@@ -46,7 +46,7 @@ class ContadorMonedas:
         self.crear_parametro(frame_parametros, "Canny Bajo:", 0, 255, 50)
         self.crear_parametro(frame_parametros, "Canny Alto:", 0, 255, 150)
 
-        # Etiqueta para mostrar el resultado
+        # Etiqueta para mostrar el resultado.
         self.etiqueta_resultado = tk.Label(self.master, text="", font=("Helvetica", 14), bg="#f0f0f0", fg="#333333")
         self.etiqueta_resultado.pack(pady=20)
 
